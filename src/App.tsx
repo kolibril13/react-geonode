@@ -1,5 +1,5 @@
 import NodeGraph from "./components/NodeGraph";
-import data from "./data/Tutorial-nodes-3.json";
+import data from "./data/Test-nodes-53.json";
 import { GeometryNodeFile } from "./types";
 import '@xyflow/react/dist/style.css';
 
@@ -9,3 +9,4 @@ function App() {
 }
 
 export default App;
+
