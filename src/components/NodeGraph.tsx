@@ -78,6 +78,7 @@ function NodeGraph({
         nodes={nodes}
         edges={edges}
         nodeTypes={nodeTypes}
+        nodeOrigin={[-4, -2]}
         defaultEdgeOptions={defaultEdgeOptions}
       >
         <Background />
