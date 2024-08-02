@@ -40,3 +40,26 @@
 .read-the-docs {
   color: #888;
 }
+
+.split-screen {
+  display: flex;
+  height: 100vh;
+}
+
+.left-pane,
+.right-pane {
+  flex: 1;
+  overflow: auto;
+}
+
+.right-pane {
+  border-left: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-pane > * {
+  height: 100%;
+  width: 100%;
+}
